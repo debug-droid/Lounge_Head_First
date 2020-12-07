@@ -1,0 +1,138 @@
+/* General */
+body {
+  font: small/1.6em Verdana, Helvetica, Arial, sans-serif;
+}
+
+h1, h2 {
+    color: #007e7e;   
+}
+
+h1 {
+    font-size: 150%;
+}
+
+h2 {
+  font-size: 130%;
+}
+
+#guarantee {
+  line-height: 1.9em;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman',Times, serif;
+  color: #444444;
+  border: 1px dashed white;
+  background-color: #a7cece;
+  padding: 25px;
+  padding-left: 80px;
+  margin: 30px;
+  margin-right: 250px;
+  background-image: url(images/background.gif);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+/* End general */
+
+/* elixirs */
+#elixirs {
+  border: thin solid #007e7e;
+  width: 200px;
+  padding: 0 20px 20px 20px;
+  margin-left: 20px;
+  text-align: center;
+  background: white url(images/cocktail.gif) repeat-x;
+}
+
+#elixirs {
+  line-height: 1;
+  float: right;
+}
+
+#elixirs h2 {
+  color: #000000;
+}
+
+#elixirs h3 {
+  color: #d12c47;
+}
+
+/* pseudo-classes */
+#elixirs a:link {
+  color: #007e7e;
+}
+
+#elixirs a:visited {
+  color: #333333;
+}
+
+#elixirs a:hover {
+  background: #f88396;
+  color: #0d5353;
+}
+/* End elixirs */
+
+/* Footer */
+#footer {
+  font-size: 80%;
+  text-align: center;
+  line-height: normal;
+  margin-top: 30px;
+}
+/* End footer*/
+
+/* Spans */
+.cd {
+  font-style: italic;
+}
+
+.artist {
+  font-weight: bold;
+}
+/* End spans */
+
+/* Links */
+a:link {
+  color: green;
+  }
+  a:visited {
+  color: red;
+  }
+  a:hover {
+  color: #007e7e;
+  }
+  /* End links */
+
+
+
+
+
+/* Media Queries */
+@media screen and (min-device-width: 481px) {
+  #guarantee {
+    margin-right: 250px;
+  }
+
+  #logo {
+    width: 250px;
+    height: 150px;
+  }
+
+  h1 {
+    padding-top: 30px;
+  }
+}
+
+@media screen and (max-device-width: 480px) {
+  #guarantee {
+    margin-right: 30px;
+  }
+}
+
+@media print {
+  body {
+    font-family: Times, "Times New Roman", serif;
+  }
+}
+
+p.specials {
+  color: red;
+}
